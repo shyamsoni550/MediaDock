@@ -1,4 +1,12 @@
+/* @import "./globals.css"; */
 @import "tailwindcss";
+@source ".";
+@source "../components";
+@source "../lib";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
 
 :root {
   --background: #ffffff;
